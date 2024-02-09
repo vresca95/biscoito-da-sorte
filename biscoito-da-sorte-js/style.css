@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root{
+  font-size: 62.5%;
+}
+
+body{
+  background: linear-gradient(200.56deg, #BB00FF 0%, #190361 100%);
+  margin: auto;
+  display: grid;
+  place-items: center;
+
+  height: 100vh;
+  align-content: center;
+}
+
+main{
+  background: #FFFFFF;
+  box-shadow: 0rem 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.6rem;
+  padding: 4.8rem 6.4rem 6.4rem;
+  margin: 23.9rem 54.2rem 31.9rem;
+
+  width: min(42.8rem, 90%);
+  text-align: center;  
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.4rem;
+  color: #34355B;
+  margin: 2.8rem 0 2rem 0;
+}
+
+p #btnRetry{
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.5rem;
+}
+
+p{
+  color: #34355B;
+  padding: 0 0 2rem 0;
+  font-weight: 400;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.5rem;
+}
+
+.screen2 #message {
+  background-color: #E4EDF1;
+  color: #000000;
+  height: 10.7rem;
+  width: 29.3rem;
+  padding: 1rem;
+  box-shadow: 0rem 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.4rem;
+  margin: 1.7rem 0 1.7rem;
+}
+
+#btnTry{
+  background-color: white;
+  border: none;
+  cursor: pointer;
+
+  transition: background .3s;
+}
+
+.hide{
+  display: none;
+}
+
+#btnRetry{
+  background-color: #FF9500;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  padding: 1.6rem;
+  transition: background .3s;
+  font-size: 1.5rem;
+  font-family: 'DM Sans', sans-serif;
+  margin-top: 1.7rem;
+}
+
+#btnTry:hover{
+  background-color: rgb(241, 241, 241);
+}
+
+#btnRetry:hover{
+  background-color: #e28d16;
+}
